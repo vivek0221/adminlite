@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="Eng">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Admin Lite</title>
+		<!-- assets -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- global -->
+    <link rel="stylesheet" href="../global/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../global/css/font-awesome.css">
+    <link rel="stylesheet" href="../global/css/themify-icons.css">
+    <!-- plugins -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+	</head>
+	<body>
+    <div id="ui" class="ui">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+              <span class="big-logo">Admin Lite</span>
+              <span class="small-logo">AL</span>
+            </a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li>
+                <a class="minbar-toggle" data-toggle="ui-nav" href="#">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </li>
+              <li class="search-form">
+                <div class="input-group">
+                  <span class="input-group-addon" id="basic-addon1">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                  </span>
+                  <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+                </div>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown dropdown-notification">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-bell-o" aria-hidden="true"></i> 
+                </a>
+                <ul class="dropdown-menu dropdown-menu-media dropdown-menu-right">
+                  <div class="dropdown-menu-header">
+                    <h6 class="dropdown-header m-0">
+                      <span class="grey darken-2">Notifications</span>
+                      <span class="notification-tag tag tag-default tag-danger float-xs-right m-0">5 New</span>
+                    </h6>
+                  </div>
+                  <ul class="list-group dropdown-items niceScroll" style="overflow: hidden;outline: none;" tabindex="0">
+                    <a href="#" class="list-group-item">
+                      <div class="media">
+                          <div class="media-left valign-middle">
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                          </div>
+                          <div class="media-body">
+                            <h6 class="media-heading">You have new order!</h6>
+                            <p class="notification-text font-small-3 text-muted">
+                              Lorem ipsum dolor sit amet, consectetuer elit.
+                            </p>
+                            <small>
+                              <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">
+                                30 minutes ago
+                              </time>
+                            </small>
+                          </div>
+                      </div>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <div class="media">
+                          <div class="media-left valign-middle">
+                            <i class="fa fa-server" aria-hidden="true"></i>
+                          </div>
+                          <div class="media-body">
+                            <h6 class="media-heading red darken-1">99% Server load</h6>
+                            <p class="notification-text font-small-3 text-muted">
+                              Aliquam tincidunt mauris eu risus.
+                            </p>
+                            <small>
+                              <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">
+                                Five hour ago
+                              </time>
+                            </small>
+                          </div>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <div class="media">
+                          <div class="media-left valign-middle">
+                            <i class="fa fa-server" aria-hidden="true"></i>
+                          </div>
+                          <div class="media-body">
+                            <h6 class="media-heading yellow darken-3">Warning notifixation</h6>
+                            <p class="notification-text font-small-3 text-muted">
+                               Vestibulum auctor dapibus neque.
+                            </p>
+                            <small>
+                              <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">Today</time>
+                            </small>
+                          </div>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <div class="media">
+                          <div class="media-left valign-middle">
+                            <i class="fa fa-server" aria-hidden="true"></i>
+                          </div>
+                          <div class="media-body">
+                            <h6 class="media-heading">Complete the task</h6>
+                            <small>
+                              <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">
+                                Last week
+                              </time>
+                            </small>
+                          </div>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <div class="media">
+                          <div class="media-left valign-middle">
+                            <i class="fa fa-server" aria-hidden="true"></i>
+                          </div>
+                          <div class="media-body">
+                            <h6 class="media-heading">Generate monthly report</h6>
+                            <small>
+                              <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">
+                                Last month
+                              </time>
+                            </small>
+                          </div>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <div class="media">
+                          <div class="media-left valign-middle">
+                            <i class="fa fa-server" aria-hidden="true"></i>
+                          </div>
+                          <div class="media-body">
+                            <h6 class="media-heading">Generate monthly report</h6>
+                            <small>
+                              <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">
+                                Last month
+                              </time>
+                            </small>
+                          </div>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <div class="media">
+                          <div class="media-left valign-middle">
+                            <i class="fa fa-server" aria-hidden="true"></i>
+                          </div>
+                          <div class="media-body">
+                            <h6 class="media-heading">Generate monthly report</h6>
+                            <small>
+                              <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">
+                                Last month
+                              </time>
+                            </small>
+                          </div>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <div class="media">
+                          <div class="media-left valign-middle">
+                            <i class="fa fa-server" aria-hidden="true"></i>
+                          </div>
+                          <div class="media-body">
+                            <h6 class="media-heading">Generate monthly report</h6>
+                            <small>
+                              <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">
+                                Last month
+                              </time>
+                            </small>
+                          </div>
+                        </div>
+                    </a>
+                  </ul>
+                  <div class="dropdown-menu-footer">
+                    <a href="#" class="dropdown-item text-muted text-xs-center">
+                      Read all  notifications
+                    </a>
+                  </div>
+                  <div id="ascrail2000" class="nicescroll-rails nicescroll-rails-vr" style="width: 12px; z-index: 10; cursor: default; position: absolute; top: 38px; left: 308px; height: 325px; display: block; opacity: 0;">
+                      <div class="nicescroll-cursors" style="position: relative; top: 60px; float: right; width: 8px; height: 231px; background-color: rgb(0, 0, 0); border: 2px solid transparent; background-clip: padding-box; border-radius: 10px;">
+                      </div>
+                  </div>
+                  <div id="ascrail2000-hr" class="nicescroll-rails nicescroll-rails-hr" style="height: 12px; z-index: 10; top: 351px; left: 0px; position: absolute; cursor: default; display: none; width: 308px; opacity: 0;">
+                    <div class="nicescroll-cursors" style="position: absolute; top: 0px; height: 8px; width: 320px; background-color: rgb(0, 0, 0); border: 2px solid transparent; background-clip: padding-box; border-radius: 10px; left: 0px;">
+                      </div>
+                  </div>
+                </ul>
+              </li>
+              <li class="dropdown dropdown-notification dropdown-message">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-media dropdown-menu-right">
+                  <div class="dropdown-menu-header">
+                    <h6 class="dropdown-header m-0">
+                      <span class="grey darken-2">Messages</span>
+                      <span class="notification-tag tag tag-default tag-danger float-xs-right m-0">5 New</span>
+                    </h6>
+                  </div>
+                  <ul class="list-group dropdown-items niceScroll" style="overflow: hidden;outline: none;" tabindex="0">
+                    <a href="#" class="list-group-item">
+                      <div class="media">
+                        <div class="media-left valign-middle">
+                          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                        <div class="media-body">
+                            <h6 class="media-heading">You have new order!</h6>
+                            <p class="notification-text font-small-3 text-muted">
+                              Lorem ipsum dolor sit amet, consectetuer elit.
+                            </p>
+                            <small>
+                              <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">
+                                30 minutes ago
+                              </time>
+                            </small>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="#" class="list-group-item">
+                      <div class="media">
+                        <div class="media-left valign-middle">
+                          <i class="fa fa-server" aria-hidden="true"></i>
+                        </div>
+                        <div class="media-body">
+                          <h6 class="media-heading red darken-1">99% Server load</h6>
+                          <p class="notification-text font-small-3 text-muted">
+                              Aliquam tincidunt mauris eu risus.
+                          </p>
+                          <small>
+                            <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">
+                                Five hour ago
+                            </time>
+                          </small>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="#" class="list-group-item">
+                      <div class="media">
+                        <div class="media-left valign-middle">
+                          <i class="fa fa-server" aria-hidden="true"></i>
+                        </div>
+                        <div class="media-body">
+                          <h6 class="media-heading yellow darken-3">Warning notifixation</h6>
+                          <p class="notification-text font-small-3 text-muted">
+                            Vestibulum auctor dapibus neque.
+                          </p>
+                          <small>
+                            <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">Today</time>
+                          </small>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="#" class="list-group-item">
+                      <div class="media">
+                        <div class="media-left valign-middle">
+                          <i class="fa fa-server" aria-hidden="true"></i>
+                        </div>
+                        <div class="media-body">
+                          <h6 class="media-heading">Complete the task</h6>
+                          <small>
+                            <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">
+                                Last week
+                            </time>
+                          </small>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="#" class="list-group-item">
+                      <div class="media">
+                        <div class="media-left valign-middle">
+                          <i class="fa fa-server" aria-hidden="true"></i>
+                        </div>
+                        <div class="media-body">
+                          <h6 class="media-heading">Generate monthly report</h6>
+                          <small>
+                            <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">
+                                Last month
+                            </time>
+                          </small>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <div class="media">
+                          <div class="media-left valign-middle">
+                            <i class="fa fa-server" aria-hidden="true"></i>
+                          </div>
+                          <div class="media-body">
+                            <h6 class="media-heading">Generate monthly report</h6>
+                            <small>
+                              <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">
+                                Last month
+                              </time>
+                            </small>
+                          </div>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <div class="media">
+                          <div class="media-left valign-middle">
+                            <i class="fa fa-server" aria-hidden="true"></i>
+                          </div>
+                          <div class="media-body">
+                            <h6 class="media-heading">Generate monthly report</h6>
+                            <small>
+                              <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">
+                                Last month
+                              </time>
+                            </small>
+                          </div>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <div class="media">
+                          <div class="media-left valign-middle">
+                            <i class="fa fa-server" aria-hidden="true"></i>
+                          </div>
+                          <div class="media-body">
+                            <h6 class="media-heading">Generate monthly report</h6>
+                            <small>
+                              <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">
+                                Last month
+                              </time>
+                            </small>
+                          </div>
+                        </div>
+                    </a>
+                  </ul>
+                  <div class="dropdown-menu-footer">
+                    <a href="#" class="dropdown-item text-muted text-xs-center">
+                      Read all  messages
+                    </a>
+                  </div>
+                  <div id="ascrail2000" class="nicescroll-rails nicescroll-rails-vr" style="width: 12px; z-index: 10; cursor: default; position: absolute; top: 38px; left: 308px; height: 325px; display: block; opacity: 0;">
+                      <div class="nicescroll-cursors" style="position: relative; top: 60px; float: right; width: 8px; height: 231px; background-color: rgb(0, 0, 0); border: 2px solid transparent; background-clip: padding-box; border-radius: 10px;">
+                      </div>
+                  </div>
+                  <div id="ascrail2000-hr" class="nicescroll-rails nicescroll-rails-hr" style="height: 12px; z-index: 10; top: 351px; left: 0px; position: absolute; cursor: default; display: none; width: 308px; opacity: 0;">
+                      <div class="nicescroll-cursors" style="position: absolute; top: 0px; height: 8px; width: 320px; background-color: rgb(0, 0, 0); border: 2px solid transparent; background-clip: padding-box; border-radius: 10px; left: 0px;">
+                      </div>
+                  </div>
+                </ul>
+              </li>
+              <li class="dropdown avatar-dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  <img src="../images/avatar.png" alt="avatar-img" class="avatar-img">
+                    Jhon Doe 
+                </a>
+                <div class="dropdown-menu">
+                  <a href="#" class="dropdown-item">
+                    <i class="fa fa-cog" aria-hidden="true"></i> Settings
+                  </a>
+                  <a href="#" class="dropdown-item">
+                    <i class="fa fa-user" aria-hidden="true"></i> Profile
+                  </a>
+                  <a href="#" class="dropdown-item">
+                    <i class="fa fa-comments" aria-hidden="true"></i>
+                      My Messages
+                  </a>
+                  <a href="#" class="dropdown-item">
+                    <i class="fa fa-lock" aria-hidden="true"></i> Lock Screen
+                  </a>
+                  <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item">
+                      <i class="fa fa-sign-out" aria-hidden="true"></i>
+                        Logout
+                    </a>
+                </div>
+                  <!-- <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul> -->
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+      <div class="side-bar ui-aside">
+        <div class="min-sidebar">
+          <div class="min-sidebar-content" style="right: -17px;">
+             <!--  <div class="user-details active">
+                  <div class="pull-left">
+                      <img src="assets/images/users/avatar-1.jpg" alt="" class="thumb-md img-circle">
+                  </div>
+                  <div class="user-info">
+                      <a href="#">Stanley Jones</a>
+                      <p class="text-muted">Administrator</p>
+                  </div>
+              </div> -->
+              <ul class="list-unstyled menu-list" ui-nav>
+                  <li class="active">
+                     <a href="index.html">
+                        <i class="fa fa-home" aria-hidden="true"></i> 
+                        <span>Dashboard</span> 
+                     </a>
+                     <ul class="nav nav-sub">
+                       <li class="nav-sub-header">
+                         <a href="#">
+                           <span>Dashboard</span>
+                         </a>
+                       </li>
+                     </ul>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <span class="label label-custom pull-right">11</span> 
+                        <i class="ti-paint-bucket"></i> 
+                        <span>UI Elements</span> 
+                     </a>
+                     <ul class="nav nav-sub">
+                       <li class="nav-sub-header">
+                         <a href="#">
+                           <span>UI Elements</span>
+                         </a>
+                       </li>
+                     </ul>
+                  </li>
+                  <li class="">
+                      <a href="#" aria-expanded="false">
+                        <i class="ti-light-bulb"></i> 
+                        <span>Components</span> 
+                        <i class="fa fa-angle-down pull-right"></i>
+                        <div class="clearfix"></div>
+                      </a>
+                      <ul class="nav nav-sub nav-slide" aria-expanded="false">
+                        <li class="nav-sub-header">
+                           <a href="#">
+                             <span>Charts</span>
+                           </a>
+                        </li>
+                        <li><a href="#">Range Slider</a></li>
+                        <li><a href="#">Alerts</a></li>
+                        <li><a href="#">Icons</a></li>
+                        <li><a href="#">Widgets</a></li>
+                      </ul>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="ti-spray"></i> 
+                      <span>Typography</span> 
+                    </a>
+                  </li>
+                  <li>
+                      <a href="#" aria-expanded="true">
+                        <i class="ti-pencil-alt"></i> 
+                        <span>Forms</span> 
+                        <i class="fa fa-angle-down pull-right"></i>
+                      </a>
+                      <ul class="nav nav-sub nav-slide" aria-expanded="false">
+                          <li class="nav-sub-header">
+                            <a href="#">
+                              <span>Forms</span>
+                            </a>
+                          </li>
+                          <li><a href="#">General Elements</a></li>
+                          <li><a href="#">Advanced Form</a></li>
+                      </ul>
+                  </li>
+                  <li>
+                      <a href="#" aria-expanded="true">
+                        <i class="ti-menu-alt"></i> 
+                        <span>Tables</span> 
+                        <i class="fa fa-angle-down pull-right"></i>
+                      </a>
+                      <ul class="nav nav-sub nav-slide" aria-expanded="false">
+                          <li>
+                            <a href="#">
+                              Tables
+                            </a>
+                          </li>
+                          <li><a href="#">Basic tables</a></li>
+                          <li><a href="#">Advanced tables</a></li>
+                      </ul>
+                  </li>
+                  <li>
+                      <a href="#">
+                        <span class="label label-custom pull-right">5</span> 
+                        <i class="ti-pie-chart"></i> 
+                        <span>Charts</span> 
+                      </a>
+                      <ul class="nav nav-sub">
+                        <li class="nav-sub-header">
+                          <a href="#">
+                           <span>Charts</span>
+                          </a>
+                        </li>
+                      </ul>
+                  </li>
+                  <li>
+                    <a href="#"><i class="ti-location-pin"></i> 
+                      <span>Maps</span>
+                    </a>
+                    <ul class="nav nav-sub">
+                       <li class="nav-sub-header">
+                         <a href="#">
+                           <span>Maps</span>
+                         </a>
+                       </li>
+                     </ul>
+                  </li>
+                  <li>
+                      <a href="#" aria-expanded="true">
+                        <i class="ti-files"></i> 
+                        <span>Pages</span> 
+                        <i class="fa fa-angle-down pull-right"></i>
+                      </a>
+                      <ul class="nav nav-sub nav-slide" aria-expanded="false">
+                        <li class="nav-sub-header">
+                          <a href="#">
+                            <span>Pages</span>
+                          </a>
+                        </li>
+                        <li><a href="pages-login.html">Login</a></li>
+                        <li><a href="pages-register.html">Register</a></li>
+                        <li><a href="pages-forget-password.html">Forget Password</a></li>
+                        <li><a href="pages-lock-screen.html">Lock-screen</a></li>
+                        <li><a href="pages-blank.html">Blank page</a></li>
+                        <li><a href="pages-404.html">Error 404</a></li>
+                        <li><a href="pages-confirm-mail.html">Confirm Mail</a></li>
+                        <li><a href="pages-session-expired.html">Session Expired</a></li>
+                      </ul>
+                  </li>
+                  <li>
+                      <a href="#" aria-expanded="true">
+                        <i class="ti-widget"></i> 
+                        <span>Extra Pages</span> 
+                        <i class="fa fa-angle-down pull-right"></i>
+                      </a>
+                      <ul class="nav nav-sub nav-slide" aria-expanded="false">
+                          <li class="nav-sub-header">
+                            <a href="#">
+                              <span>Extra Pages</span> 
+                            </a>
+                          </li>
+                          <li><a href="extras-timeline.html">Timeline</a></li>
+                          <li><a href="extras-invoice.html">Invoice</a></li>
+                          <li><a href="extras-profile.html">Profile</a></li>
+                          <li><a href="extras-calendar.html">Calendar</a></li>
+                          <li><a href="extras-faqs.html">FAQs</a></li>
+                          <li><a href="extras-pricing.html">Pricing</a></li>
+                          <li><a href="extras-contacts.html">Contacts</a></li>
+                      </ul>
+                  </li>
+                  <li>
+                      <a href="#" aria-expanded="true">
+                        <i class="ti-share"></i> 
+                        <span>Multi Level</span> 
+                        <i class="fa fa-angle-down pull-right"></i>
+                      </a>
+                      <ul class="nav nav-sub nav-slide" aria-expanded="false">
+                          <li class="nav-sub-header">
+                            <a href="#">
+                               <span>Multi Level</span>
+                            </a>
+                          </li>
+                          <li><a href="#">Level 1.1</a></li>
+                          <li>
+                              <a href="#" aria-expanded="true">Level 1.2 
+                                <span class="fa arrow"></span>
+                              </a>
+                              <ul class="nav-third-level nav collapse" aria-expanded="false">
+                                  <li><a href="#">Level 2.1</a></li>
+                                  <li><a href="#">Level 2.2</a></li>
+                              </ul>
+                          </li>
+                      </ul>
+                  </li>
+              </ul>
+          </div>
+          <div class="sidebar-scroll" style="display: block">
+              <div class="small-slider" style="height: 131px; transform: translate(0px, 73.3463px);">
+              </div>
+          </div>
+        </div>
+      </div>
+      <div id="content" class="ui-content ui-content-aside-overlay">
+        <div class="ui-content-body">
+          <div class="ui-container">
+            <div class="main-content">
+              <div class="row grid">
+                <!-- *** Headings Panel *** -->       
+                <div class="col-md-6 p-5">
+                  <!-- panel -->
+                  <div class="panel panel-typography">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">
+                          Headings 
+                          <span class="panel-options pull-right">
+                              <a href="#" class="panel-refresh">
+                                <i class="icon ti-reload"></i>
+                              </a>
+                              <a href="#" class="panel-minimize">
+                                <i class="icon ti-angle-up"></i>
+                              </a>
+                              <a href="#" class="panel-close">
+                                <i class="icon ti-close"></i>
+                              </a>
+                          </span>
+                      </h3>
+                    </div>
+                    <div class="panel-body">
+                      <!-- <div class="spin-icon" style="display: none;">
+                        <i class="fa fa-spinner fa-spin" aria-hidden="true"></i>
+                      </div> -->
+                      <h1>h1.Plays major role</h1>
+                      <h2>h2.Plays major role</h2>
+                      <h3>h3.Plays major role</h3>    
+                      <h4>h4.Plays major role</h4>
+                      <h5>h5.Plays major role</h5>
+                      <h6>h6.Plays major role</h6>
+                    </div>
+                  </div>
+                  <!-- /panel -->
+                </div>
+                <!-- /col-md-6 -->
+                <!-- *** Custom Headings Panel *** -->
+                <div class="col-md-6 p-5">
+                  <!-- panel -->
+                  <div class="panel panel-typography">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            Custom Headings
+                            <span class="panel-options pull-right">
+                                <a href="#" class="panel-refresh">
+                                    <i class="icon ti-reload"></i>
+                                </a>
+                                <a href="#" class="panel-minimize">
+                                    <i class="icon ti-angle-up"></i>
+                                </a>
+                                <a href="#" class="panel-close">
+                                    <i class="icon ti-close"></i>
+                                </a>
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="panel-body">
+                        <h1 class="text-danger">Text in Red by.text-primary</h1>
+                        <h2 class="text-info">Text in Blue by .text-info</h2>
+                        <h3 class="text-warning">Text in Orange by .text-warning</h3>    
+                        <h4 class="text-default">Text in black by .text-default</h4>
+                        <h5 class="text-success">Text in Green by .text-success</h5>
+                        <h6 class="text-muted">Text in Grey by .text-inverse</h6>
+                    </div>
+                  </div>
+                  <!-- /panel -->
+                </div>
+                <!-- /col-md-6 -->
+              </div>
+              <!-- /row -->
+              <!-- *** Blockquote Panel *** -->
+              <div class="row grid">        
+                <div class="col-md-12 p-5">
+                  <!-- panel -->
+                  <div class="panel panel-typography">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">
+                          Blockquote
+                        <span class="panel-options pull-right">
+                          <a href="#" class="panel-refresh">
+                            <i class="icon ti-reload"></i>
+                          </a>
+                          <a href="#" class="panel-minimize">
+                            <i class="icon ti-angle-up"></i>
+                          </a>
+                          <a href="#" class="panel-close">
+                            <i class="icon ti-close"></i>
+                          </a>
+                        </span>
+                      </h3>
+                    </div>
+                    <div class="panel-body">
+                      <blockquote>
+                          <p>This is default blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                      </blockquote>
+                      <blockquote class="blockquote pull-right text-warning">
+                          <p>True art is characterized by an irresistible urge in the creative artist.</p>
+                          <small>Albert Einstein<cite title="http://www.brainyquote.com/quotes/authors/a/albert_einstein_3.html#3egzLYgYMT65zWoi.99">Source Title</cite></small>
+                      </blockquote>
+                      <blockquote class="text-danger">
+                          <p>As far as the laws of mathematics refer to reality, they are not certain, and as far as they are certain, they do not refer to reality. </p>
+                          <small>Albert Einstein<cite title="http://www.brainyquote.com/quotes/authors/a/albert_einstein_4.html#gzZhjKCTsBRK78Kj.99">Source Title</cite></small>
+                      </blockquote>
+                    </div>
+                  </div>
+                  <!-- /panel -->
+                </div>
+                <!-- /col-md-12 -->
+              </div>
+              <!-- /row -->
+              <!-- *** Inline Text Elements Panel *** -->
+              <div class="row grid">        
+                <div class="col-md-12 p-5">
+                  <!-- panel -->
+                  <div class="panel panel-typography">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">
+                        Inline Text Elements
+                        <span class="panel-options pull-right">
+                                  <a href="#" class="panel-refresh">
+                                      <i class="icon ti-reload"></i>
+                                  </a>
+                                  <a href="#" class="panel-minimize">
+                                      <i class="icon ti-angle-up"></i>
+                                  </a>
+                                  <a href="#" class="panel-close">
+                                      <i class="icon ti-close"></i>
+                                  </a>
+                        </span>
+                      </h3>
+                    </div>
+                    <div class="panel-body">
+                      <table class="table table-bordered">
+                        <thead>
+                          <tr>
+                            <th style="width:50%;">Text Type</th>
+                            <th style="width:50%;">Example</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Marked Text:</td>
+                            <td>You can use the mark tag to <mark>highlight</mark> text.</td>
+                          </tr>
+                          <tr>
+                            <td>Strikethrough text:</td>
+                            <td>
+                              <s>
+                                This line of text is meant to be treated as no longer accurate.
+                              </s>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Underlined text:</td>
+                            <td>
+                              <u>This line of text will render as underlined</u>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Small Text:</td>
+                            <td>
+                              <small>
+                                This line of text is meant to be treated as fine print.
+                              </small>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Bold Text:</td>
+                            <td><strong>rendered as bold text</strong></td>
+                          </tr>
+                          <tr>
+                            <td>Italics Text:</td>
+                            <td><em>rendered as italicized text</em></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <!-- /panel -->
+                </div>
+                <!-- /col-md-12 -->
+              </div>
+              <!-- /row -->
+              <!-- *** Alignment Classes Panel *** -->
+              <div class="row grid">        
+                <div class="col-md-3 p-5">
+                  <!-- panel -->
+                  <div class="panel panel-typography">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">
+                                Alignment Classes
+                                <span class="panel-options pull-right">
+                                    <a href="#" class="panel-refresh">
+                                        <i class="icon ti-reload"></i>
+                                    </a>
+                                    <a href="#" class="panel-minimize">
+                                        <i class="icon ti-angle-up"></i>
+                                    </a>
+                                    <a href="#" class="panel-close">
+                                        <i class="icon ti-close"></i>
+                                    </a>
+                                </span>
+                      </h3>
+                    </div>
+                    <div class="panel-body">
+                      <p class="text-left text-success">.text-left</p><br>
+                      <p class="text-center text-warning">.text-center</p><br>
+                      <p class="text-right text-primary">.text-right</p>
+                    </div>
+                  </div>
+                  <!-- /panel -->
+                </div>
+                  <!-- /col-md-3 -->
+                <!-- *** List Types *** -->
+                <div class="col-md-9 p-5">
+                  <!-- panel -->
+                  <div class="panel panel-typography">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">
+                          List types
+                          <span class="panel-options pull-right">
+                            <a href="#" class="panel-refresh">
+                              <i class="icon ti-reload"></i>
+                            </a>
+                            <a href="#" class="panel-minimize">
+                              <i class="icon ti-angle-up"></i>
+                            </a>
+                            <a href="#" class="panel-close">
+                              <i class="icon ti-close"></i>
+                            </a>
+                          </span>
+                      </h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                          <div class="col-md-4 p-5">
+                              <ul class="text-success">
+                                  <li>This text is in unordered list</li>
+                                  <li>
+                                      This text is in unordered list
+                                      <ul>
+                                          <li class="text-danger">subtext in unordered</li>
+                                          <li class="text-danger">subtext in unordered</li>
+                                          <li class="text-danger">subtext in unordered</li>
+                                      </ul>
+                                  </li>
+                                  <li>This text is in unordered list</li>
+                              </ul>
+                          </div>
+                          <div class="col-md-4 p-5">
+                              <ol class="text-warning list-unstyled">
+                                  <li>This text is in Ordered list</li>
+                                  <li>
+                                      This text is in ordered list
+                                      <ol class="text-danger ">
+                                          <li>sublist in ordered</li>
+                                          <li>sublist in ordered</li>
+                                          <li>sublist in ordered</li>
+                                      </ol>
+                                  </li>
+                                  <li>This text is in ordered list</li>
+                              </ol>
+                          </div>
+                          <div class="col-md-4 p-5">
+                              <ul class="text-info">
+                                  <li>This text is in unstyled list</li>
+                                  <li>
+                                      This text is in ordered list
+                                      <ul class="text-danger ">
+                                          <li>sublist in unstyled</li>
+                                          <li>sublist in unstyled</li>
+                                          <li>sublist in unstyled</li>
+                                      </ul>
+                                  </li>
+                                  <li>This text is in unstyled list</li>
+                              </ul>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                  <!-- /panel -->
+                </div>
+                <!-- /col-md-9 -->
+              </div>
+              <!-- /row -->
+              <!-- *** Description Data Panel *** -->
+              <div class="row grid">        
+                <div class="col-md-12 p-5">
+                    <!-- panel -->
+                  <div class="panel panel-typography">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">
+                                  Description Data
+                                  <span class="panel-options pull-right">
+                                      <a href="#" class="panel-refresh">
+                                          <i class="icon ti-reload"></i>
+                                      </a>
+                                      <a href="#" class="panel-minimize">
+                                          <i class="icon ti-angle-up"></i>
+                                      </a>
+                                      <a href="#" class="panel-close">
+                                          <i class="icon ti-close"></i>
+                                      </a>
+                                  </span>
+                      </h3>
+                    </div>
+                    <div class="panel-body">
+                      <div class="row">
+                                  <div class="col-md-4 p-5">
+                                      <dl>
+                                          <dt>Description lists</dt>
+                                          <dd>A description list is perfect for defining terms.</dd>
+                                      </dl>
+                                      <dl>
+                                          <dt>Euismod</dt>
+                                          <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit. Donec id elit non mi porta gravida at eget metus.</dd>
+                                      </dl>
+                                      <dl>
+                                          <dt>Malesuada porta</dt>
+                                          <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+                                      </dl>
+                                  </div>  
+                                  <!-- /col-md-4 -->
+
+                                  <div class="col-md-8 p-5">
+                                      <dl class="dl-horizontal">
+                                          <dt>Description lists</dt>
+                                          <dd>A description list is perfect for defining terms.</dd>
+                                      </dl>
+                                      <dl class="dl-horizontal">
+                                          <dt>Euismod</dt>
+                                          <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit. Donec id elit non mi porta gravida at eget metus.</dd>
+                                      </dl>
+                                      <dl class="dl-horizontal">
+                                          <dt>Malesuada porta</dt>
+                                          <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+                                      </dl>
+                                  </div>
+                                  <!-- /col-md-8 -->
+                      </div>
+                      <!-- /row -->
+                    </div>
+                  </div>
+                    <!-- /panel -->
+                </div>
+                <!-- /col-md-12 -->
+              </div>
+              <!-- /row -->
+              <!-- *** Address Panel *** -->
+              <div class="row grid">        
+                <div class="col-md-4 p-5">
+                  <!-- panel -->
+                  <div class="panel panel-typography">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">
+                        Addresses
+                        <span class="panel-options pull-right">
+                                    <a href="#" class="panel-refresh">
+                                        <i class="icon ti-reload"></i>
+                                    </a>
+                                    <a href="#" class="panel-minimize">
+                                        <i class="icon ti-angle-up"></i>
+                                    </a>
+                                    <a href="#" class="panel-close">
+                                        <i class="icon ti-close"></i>
+                                    </a>
+                        </span>
+                      </h3>
+                    </div>
+                    <div class="panel-body">
+                            <address>
+                                <strong>BootstrapGuru, Inc.</strong><br>
+                                Andhra Pradesh, India<br>
+                                <abbr title="Phone">P:</abbr> (999) 999-9999
+                            </address>
+
+                            <address>
+                                <strong>Full Name</strong><br>
+                                <a href="mailto:#">abc@example.com</a>
+                            </address>
+                    </div>
+                  </div>
+                  <!-- /panel -->
+                </div>
+                <!-- *** Abbreviation Panel *** -->
+                <div class="col-md-4 p-5">
+                  <!-- panel -->
+                  <div class="panel panel-typography">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                Basic Abbreviation
+                                <span class="panel-options pull-right">
+                                    <a href="#" class="panel-refresh">
+                                        <i class="icon ti-reload"></i>
+                                    </a>
+                                    <a href="#" class="panel-minimize">
+                                        <i class="icon ti-angle-up"></i>
+                                    </a>
+                                    <a href="#" class="panel-close">
+                                        <i class="icon ti-close"></i>
+                                    </a>
+                                </span>
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            <p>An abbreviation of our company is <abbr title="BootstrapGuru">BSG</abbr></p>
+                            <p>An abbreviation of the word attribute is <abbr title="Attribute">attr</abbr></p>
+                            <p><abbr title="HyperText Markup Language">HTML</abbr> is the best thing since sliced bread.</p>
+                            <p>An abbreviation of the word Themeforest is <abbr title="Themeforest">TF</abbr></p>
+                        </div>
+                  </div>
+                  <!-- /panel -->
+                </div>
+                <!-- *** Emphasis Panel *** -->
+                <div class="col-md-4 p-5">
+                  <!-- panel -->
+                  <div class="panel panel-typography">
+                      <div class="panel-heading">
+                        <h3 class="panel-title">
+                            Emphasis
+                            <span class="panel-options pull-right">
+                                <a href="#" class="panel-refresh">
+                                    <i class="icon ti-reload"></i>
+                                </a>
+                                <a href="#" class="panel-minimize">
+                                    <i class="icon ti-angle-up"></i>
+                                </a>
+                                <a href="#" class="panel-close">
+                                    <i class="icon ti-close"></i>
+                                </a>
+                            </span>
+                        </h3>
+                      </div>
+                      <div class="panel-body">
+                          <p><small>This line of text is meant to be treated as fine print.</small></p>
+                          <p>The following snippet of text is <strong>rendered as bold text.</strong></p>
+                          <p>The following snippet of text is <em>rendered as italicized text.</em></p>
+                          <p>An abbreviation of the word <strong>Themeforest</strong> is <abbr title="Themeforest">TF</abbr> <br></p>
+                      </div>
+                  </div>
+                  <!-- /panel -->
+                </div>
+              </div>
+              <!-- /row -->
+            </div>  
+          </div>
+        </div>
+      </div>
+    </div>
+		<!--global js files-->
+		<script src="../global/js/jquery-3.1.1.min.js"></script>
+		<script src="../global/js/bootstrap.min.js"></script>
+    <script src="../node_modules/jquery.nicescroll/jquery.nicescroll.min.js"></script>
+    <!-- assets -->
+    <script src="../assets/js/core.js"></script>
+	</body>
+</html>    
